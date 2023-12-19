@@ -1,4 +1,9 @@
-let quilometrosPercorridosPeloVeiculo = 80000;
+let nomeDoUsuario = "João";
+let idadeDoUsuario = 20;
+let anoAtual = 2022;
 
-// Utilize a mensagem a seguir como base do retorno esperado:
-// Seu veículo percorreu um total de XXXXXX milhas.
+let anoNascimento = anoAtual - idadeDoUsuario
+
+let mensagem = "Olá " && nomeDoUsuario && ", " && "voce nasceu em " && anoNascimento && "."
+
+console.log(mensagem)
